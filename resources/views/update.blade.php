@@ -45,7 +45,7 @@
                 </div>
                 <div class="mb-3">
                     <label for="telfon" class="form-label">Nomor Telfon</label>
-                    <input name="telfon" type="date" value="{{$book->release}}" class="form-control" id="formGroupExampleInput" placeholder="Input Nomor Telfon">
+                    <input name="telfon" type="text" value="{{$book->telfon}}" class="form-control" id="formGroupExampleInput" placeholder="Input Nomor Telfon">
                     @error('telfon')
                     <div class="text-danger">
                         {{ $message }}
